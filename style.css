@@ -1,0 +1,88 @@
+.container {
+    background: rgb(0, 217, 255);
+    width: 350px;
+    padding: 25px;
+    margin: 20px auto;
+    border-top: 5px solid blue;
+    box-shadow: 0 0 10px 5px rgb(0, 0, 0);
+}
+
+.container h1 {
+    background-color: rgb(14, 14, 248);
+    font-size: 24px;
+    line-height: 24px;
+    padding: 10px;
+    text-align: center;
+}
+
+.marquee {
+
+    background-image: url(ban.jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+
+    background-color: aqua;
+    font-size: large;
+    font-family: cursive;
+}
+
+.name {
+    width: 90%;
+    position: relative;
+    margin: 3% auto;
+}
+
+.Email {
+    width: 90%;
+    position: relative;
+    margin: 3% auto;
+}
+
+.Number {
+    width: 90%;
+    position: relative;
+    margin: 3% auto;
+}
+
+.Resume {
+    width: 90%;
+    position: relative;
+    margin: 3% auto;
+}
+
+.Position {
+    width: 90%;
+    position: relative;
+    margin: 3% auto;
+}
+
+.button {
+
+    background-color: rgb(7, 7, 158);
+    color: white;
+    height: 35px;
+    line-height: 35px;
+    width: 140px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    border: 10px;
+
+}
+
+.button:hover {
+    background: green;
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+        border: 3px solid blueviolet;
+    }
+
+    .input-name {
+        margin-bottom: -10px;
+    }
+
+}
